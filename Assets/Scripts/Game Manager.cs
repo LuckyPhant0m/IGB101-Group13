@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
 
     public GameObject player;
+    public Text pickupText;
 
     //Pickup and level completion variables
     public int currentPickups = 0;
@@ -23,6 +25,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         LevelCompleteCheck();
+        UpdateGUI();
     }
 
     private void LevelCompleteCheck()
@@ -31,5 +34,10 @@ public class GameManager : MonoBehaviour
             levelComplete = true;
         else
             levelComplete = false;
+    }
+
+    private void UpdateGUI()
+    {
+        pickupText.text = "Pickups: " + currentPickups + "/" + maxPickups;
     }
 }
