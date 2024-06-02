@@ -8,10 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Sam Kerr/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Sam Kerr/Scenes/Assignment 2 AR.unity
     guid: 1eee751f7cfb9ef40bdcf50962fc58d1
   - enabled: 1
-    path: Assets/Sam Kerr/Scenes/Museum.unity
+    path: Assets/Scenes/Museum.unity
     guid: a3f0f0721e92b4647a295b34072515d4
+  - enabled: 1
+    path: Assets/Scenes/Assignment 2 AR.unity
+    guid: cc495cb39789fb842b547c56971334be
   m_configObjects: {}
