@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Sam Kerr/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Assignment 2 AR.unity
+    path: Assets/Sam Kerr/Scenes/Assignment 2 AR.unity
     guid: 1eee751f7cfb9ef40bdcf50962fc58d1
+  - enabled: 1
+    path: Assets/Sam Kerr/Scenes/Museum.unity
+    guid: a3f0f0721e92b4647a295b34072515d4
   m_configObjects: {}
