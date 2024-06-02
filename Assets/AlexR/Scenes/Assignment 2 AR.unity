@@ -697,7 +697,7 @@ GameObject:
   - component: {fileID: 213639636}
   - component: {fileID: 213639640}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: LevelComplete
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
